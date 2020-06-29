@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>346182475732-uq5u8v9gq959akg5260g30fdrs8qq3vb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.346182475732-uq5u8v9gq959akg5260g30fdrs8qq3vb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCdzsyhX0Kn2LTA85yUG7melgeBiCghPCw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>346182475732</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.techbuzs.Fixify</string>
+	<key>PROJECT_ID</key>
+	<string>fixify-tb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fixify-tb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:346182475732:ios:417ac59a4af8f4dd97c041</string>
+	<key>DATABASE_URL</key>
+	<string>https://fixify-tb.firebaseio.com</string>
+</dict>
+</plist>
