@@ -28,6 +28,7 @@ dependencies:
 
   firebase_core: ^0.4.4+3
   firebase_auth: ^0.15.5+3
+  introduction_screen: ^1.0.9
 
   mobx: ^1.1.1
   flutter_mobx: ^1.1.0
