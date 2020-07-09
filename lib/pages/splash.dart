@@ -5,7 +5,7 @@ import 'package:Fixify/stores/login_store.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../theme.dart';
+// import '../theme.dart';
 
 
 class SplashPage extends StatefulWidget {
@@ -19,7 +19,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(seconds: 5),(){
+    Future.delayed(Duration(seconds: 2),(){
        Provider.of<LoginStore>(context, listen: false).isAlreadyAuthenticated().then((result) {
       if (result) {
         Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (_) => const HomePage()), (Route<dynamic> route) => false);

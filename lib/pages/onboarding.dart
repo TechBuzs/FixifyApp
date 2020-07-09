@@ -48,7 +48,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         PageViewModel(
           title: "Get as you go",
           body:
-              "Download the Stockpile app and master the market with our mini-lesson.",
+              "",
           image: _buildImage('img1'),
           decoration: pageDecoration,
         ),
@@ -79,7 +79,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         //   decoration: pageDecoration,
         // ),
         PageViewModel(
-          title: "Title of last page",
+          title: "",
           bodyWidget: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
@@ -99,7 +99,8 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       nextFlex: 0,
       skip: const Text('Skip'),
       next: const Icon(Icons.arrow_forward),
-      done: const Text('Done', style: TextStyle(fontWeight: FontWeight.w600)),
+      // done: const Text('Done', style: TextStyle(fontWeight: FontWeight.w600)),
+      done: const Icon(Icons.done),
       dotsDecorator: const DotsDecorator(
         size: Size(10.0, 10.0),
         color: Color(0xFFBDBDBD),

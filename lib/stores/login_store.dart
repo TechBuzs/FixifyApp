@@ -1,6 +1,7 @@
-import 'package:Fixify/pages/home.dart';
+// import 'package:Fixify/pages/home.dart';
 import 'package:Fixify/pages/login.dart';
 import 'package:Fixify/pages/otp_page.dart';
+import 'package:Fixify/pages/userdata.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
@@ -38,6 +39,7 @@ abstract class LoginStoreBase with Store {
 
   @action
   Future<void> getCodeWithPhoneNumber(BuildContext context, String phoneNumber) async {
+   //REturn the prgress indicator
     isLoginLoading = true;
 
     await _auth.verifyPhoneNumber(
@@ -111,8 +113,10 @@ abstract class LoginStoreBase with Store {
     isOtpLoading = true;
 
     firebaseUser = result.user;
+    result.user.phoneNumber;
+    result.user.uid;
 
-    Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (_) => const HomePage()), (Route<dynamic> route) => false);
+    Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (_) =>  UserData(phoneNumber: result.user.phoneNumber,uid: result.user.uid,)), (Route<dynamic> route) => false);
 
     isLoginLoading = false;
     isOtpLoading = false;

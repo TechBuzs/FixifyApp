@@ -23,16 +23,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # For Auth
+  
   numeric_keyboard: ^1.0.0
 
+ #   Authenication
   firebase_core: ^0.4.4+3
   firebase_auth: ^0.15.5+3
   introduction_screen: ^1.0.9
+  cloud_firestore: ^0.13.7
+  flushbar:
+  simple_animations:
 
+
+  # State Management
+  provider: ^4.0.4
   mobx: ^1.1.1
   flutter_mobx: ^1.1.0
-  provider: ^4.0.4
 
 
 
