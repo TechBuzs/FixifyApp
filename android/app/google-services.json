@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "346182475732",
+    "firebase_url": "https://fixify-tb.firebaseio.com",
+    "project_id": "fixify-tb",
+    "storage_bucket": "fixify-tb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346182475732:android:7e8dbc1861ff37f797c041",
+        "android_client_info": {
+          "package_name": "com.techbuzs.Fixify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346182475732-nonb73kg9uerjfgkq90kv867tap6b7dv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techbuzs.Fixify",
+            "certificate_hash": "1d3001a5eec84192ece8df8dd097c385f7b559ea"
+          }
+        },
+        {
+          "client_id": "346182475732-4ukg6hmu9lml8urj3qi7ia08nt7jspjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJWx-TvKl6FPcG62wkqsqN53qnBebyMTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346182475732-4ukg6hmu9lml8urj3qi7ia08nt7jspjo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "346182475732-uq5u8v9gq959akg5260g30fdrs8qq3vb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techbuzs.Fixify"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
